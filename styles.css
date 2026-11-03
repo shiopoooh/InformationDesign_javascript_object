@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #eef3f8;
+  color: #263445;
+  margin: 0;
+  padding: 30px 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #243b53;
+  font-size: 2em;
+  letter-spacing: 0.06em;
+  margin: 10px 0 30px;
+}
+
+.buttons {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border: 1px solid #356b8c;
+  border-radius: 999px;
+  background-color: #356b8c;
+  color: #ffffff;
+  font-size: 0.95em;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #244d68;
+  transform: translateY(-2px);
+}
+
+#product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.card {
+  width: 100px;
+  background: #ffffff;
+  border: 1px solid #d8e2eb;
+  border-radius: 16px;
+  text-align: center;
+  padding: 18px;
+  box-shadow: 0 5px 16px rgba(36, 77, 104, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 24px rgba(36, 77, 104, 0.14);
+}
+
+.card img {
+  max-width: 100%;
+  height: 150px;
+  object-fit: contain;
+  margin: 5px 0 10px;
+}
+
+.card h2 {
+  font-size: 1.2em;
+  color: #243b53;
+  margin: 10px 0;
+}
+
+.price {
+  font-weight: bold;
+  color: #e07a3f;
+  font-size: 1.1em;
+}
+
+footer {
+  text-align: center;
+  color: #718096;
+  margin-top: 35px;
+}
